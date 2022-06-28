@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap'); /* heading font */
+:root{
+    --main-bg-color: #460746;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background-color: var(--main-bg-color);
+    
+}
+nav{
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 150px;
+}
+nav ul{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li {
+    padding: 0 23px;
+    margin: 2px;
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(217, 138, 248);
+    font-weight: bolder;
+}
+.container{
+    min-height: calc(100vh - 12vh - 7vh);
+    background-color:rgb(217, 138, 248); 
+    font-family: 'Kanit', sans-serif;
+}
+span{
+    color:var(--main-bg-color);
+    font-family: cursive;
+    
+}
+img:hover{
+    width: 155px;
+    transition: ease-in;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+footer{
+    height: 7vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
